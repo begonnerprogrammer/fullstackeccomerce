@@ -1,0 +1,168 @@
+body{
+    background-color:gray;
+}
+
+.container{
+   display: flex;
+   margin-left: 10px;
+   margin-right: 10px;
+   width: 80vw;
+   margin: auto;
+   margin-top: 40px;
+}
+
+.my-img{
+    object-fit: contain;
+    max-width: 30vw;
+    min-width: 20vw;
+    margin-right: 5px;
+}
+
+.left-section{
+flex-basis: 50%;
+}
+
+.right-section{
+flex-basis: 50%;
+align-items: flex-start;
+}
+.right-section p{
+    color:#fff;
+}
+.Contact-btn{
+    background-color: red;
+    border: 1px solid white;
+    color: aliceblue;
+    border-radius: 20px;
+    width: 90px;
+    height: 40px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.name{
+    font-size: 40px;
+    color:lightcoral;
+}
+.heading-span{
+    color: yellow;
+    font-size: 40px;
+}
+.Contact-btn:hover{
+    background-color: white;
+    /* border: 1px solid red; */
+    color: red;
+    font-size: 16px;
+}
+
+hr{
+    height: 1px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+.projects{
+ width: 80vw;
+ margin: auto;
+ margin-top: 70px;
+ text-align: center;
+ display:flex ;
+ flex-direction: column;
+}
+.projects h1{
+    color: #fff;
+}
+.projects Link li{
+    align-self: flex-start;
+}
+.projects .link{
+  align-self: flex-start;
+}
+.link-h1{
+    margin-top: 40px;
+    color: aqua !important;
+}
+.li-1{
+    color: aqua;
+    cursor: pointer;
+}
+.li-2{
+    color:blue;
+    cursor: pointer;
+}
+
+.li-3{
+    color: yellow;
+    cursor: pointer;
+}
+
+.skills{
+    width: 80vw;
+ margin: auto;
+ margin-top: 50px;
+ text-align: center;
+ display:flex ;
+ flex-direction: column;
+ margin-bottom: 10px;
+}
+
+.skills li{
+    align-self: flex-start;
+    color: white;
+}
+
+.skills li strong{
+    color: aqua;
+}
+.skills li span{
+    width: 30vw;
+    background-color: red;
+    height: 20px;
+}
+
+.skill-container{
+    width: 100%;
+    background-color:white;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    display: flex;
+}
+.skill{
+    padding: 10px;
+}
+.skill1{
+    width: 60%;
+    background-color: red;
+}
+.skill2{
+    background-color:yellow;
+    width: 60%;
+}
+
+.skill3{
+    background-color: pink;
+    width: 55%;
+}
+.skill4{
+    background-color: green;
+    width:50%;
+}
+.skill5{
+    background-color: aqua;
+    width: 50%;
+}
+.skill6{
+    background-color: pink;
+    width: 60%;
+}
+.Skills-h1{
+margin-bottom: 25px;
+font-size: 50px;
+color: yellow;
+margin-bottom: 10px;
+padding: 10px;
+}
