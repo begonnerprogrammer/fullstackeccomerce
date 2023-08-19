@@ -26,7 +26,7 @@ const Nav = () => {
   return <>
       <nav class="navbar">
  
-   <Link to={"/"}><div class="brand-title">USMAN--STORE</div></Link> 
+   <Link to={"/"}><div class="brand-title"> <span className='nav-heading'> USMAN--STORE</span></div></Link> 
 
     {/* <a href="#" class="toggle-btn">
         <span class="bar"></span>

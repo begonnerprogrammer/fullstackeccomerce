@@ -5,7 +5,17 @@ body{
 .product-img{
     height: 20vh;
     width: 20vw;
+    cursor: pointer;
 }
+.buy-product-heading{
+    font-size: 25px;
+    transition: all 0.5s;
+}
+.buy-product-heading:hover{
+    font-size: 30px;
+    cursor: pointer;
+}
+
 .catgorys-holder{
     display: flex;
     flex-direction: column;
@@ -45,7 +55,7 @@ body{
 
 .cart-btn:hover{
     background-color: black;
-    border: 1px solid yellow;
+    cursor: pointer;
 color: #fff;
     font-size: 16px;
 }
