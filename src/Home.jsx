@@ -27,10 +27,10 @@ const Home = () => {
   <li className='category-li' onClick={ ()=>switchtab("Kitchen")}>Groccery</li>
   </div>  */}
 
- <h1>Buy Products</h1>
+ <h1 className='buy-product-heading'>Buy Products</h1>
 
  
-<Product   id="1123123"   name={"Camera"}   description={"Very good condition"}  img={"./images/camera.jpeg"}   price= {455} />
+<Product   id="1123123"   name={"Camera"}   description={"Very good condition"}  img={"./images/camera.jpeg"}    price= {455} />
 <Product   id="1133123"      name={"Headphones"}   description={"Very good condition"}    img={"./images/CD.jpg" }  price= {485} />
 <Product   id="1234212"   name={"Headphones"}   description={"Very good condition"}   img={"./images/Razor.jpg" }  price= {435} />
 <Product   id="1136623"  name={"washingmachine"}   description={"Very good condition"}   img={"./images/washingmachine1.jpg"}  price= {225} />
