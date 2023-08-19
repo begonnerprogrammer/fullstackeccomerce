@@ -60,7 +60,7 @@ align-items:flex-start ;
 
 
 
-@media  (min-width:414px){
+@media  (min-width:365px){
     .catgorys-holder{
         margin: 0 auto;
         align-items: center;
