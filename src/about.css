@@ -16,6 +16,7 @@ body{
     max-width: 30vw;
     min-width: 20vw;
     margin-right: 5px;
+    cursor: pointer;
 }
 
 .left-section{
@@ -75,6 +76,7 @@ hr{
 }
 .projects h1{
     color: #fff;
+    cursor: pointer;
 }
 .projects Link li{
     align-self: flex-start;
@@ -103,7 +105,7 @@ hr{
 .skills{
     width: 80vw;
  margin: auto;
- margin-top: 50px;
+ margin-top: 20px;
  text-align: center;
  display:flex ;
  flex-direction: column;
@@ -124,45 +126,46 @@ hr{
     height: 20px;
 }
 
-.skill-container{
-    width: 100%;
-    background-color:white;
-    margin-bottom: 15px;
-    margin-top: 10px;
-    display: flex;
-}
-.skill{
-    padding: 10px;
-}
-.skill1{
-    width: 60%;
-    background-color: red;
-}
-.skill2{
-    background-color:yellow;
-    width: 60%;
+
+
+
+.Skills-h1{
+
+font-size: 40px;
+color:rgba(240, 128, 128, 0.767);
+padding: 10px;
+cursor: pointer;
 }
 
-.skill3{
-    background-color: pink;
-    width: 55%;
-}
-.skill4{
-    background-color: green;
-    width:50%;
-}
-.skill5{
-    background-color: aqua;
-    width: 50%;
-}
-.skill6{
-    background-color: pink;
-    width: 60%;
-}
-.Skills-h1{
-margin-bottom: 25px;
-font-size: 50px;
-color: yellow;
-margin-bottom: 10px;
-padding: 10px;
+
+@media(max-width:414px){
+    .name{
+        font-size: 15px !important;
+    }
+    .heading-span{
+        font-size: 15px !important;
+    }
+    .about-text{
+        font-size: 15px !important;
+    }
+    .right-section p{
+        font-size: 10px;
+    }
+    .Skills-h1{
+        font-size: 25px;
+    }
+    .skills h1{
+        font-size: 20px;
+    }
+    .projects{
+        margin-top: 20px;
+    }
+    .projects h1{
+        font-size: 20px;
+    }
+    .projects li{
+
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
 }
