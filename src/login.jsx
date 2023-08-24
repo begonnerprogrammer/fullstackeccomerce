@@ -40,7 +40,7 @@ history("/")
           <input value={password} type='password' onChange={(event)=>setpassword(event.target.value)}/>
           <button onClick={login}>Sign in</button>
         </form>
-        <button onClick={register}>Create Your Amazon Acount</button>
+        <button onClick={register}>Create Your New Account</button>
       </div>
     </div>
     </>
